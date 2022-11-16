@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeFlightTakeHomeChallenge", "LimeFlightTakeHomeChallenge\LimeFlightTakeHomeChallenge.csproj", "{91E7DC98-0643-4C48-BF40-E84F882974BE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EDB2ED5E-A001-4AD7-926A-4186F010D22F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91E7DC98-0643-4C48-BF40-E84F882974BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E7DC98-0643-4C48-BF40-E84F882974BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E7DC98-0643-4C48-BF40-E84F882974BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E7DC98-0643-4C48-BF40-E84F882974BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB2ED5E-A001-4AD7-926A-4186F010D22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB2ED5E-A001-4AD7-926A-4186F010D22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB2ED5E-A001-4AD7-926A-4186F010D22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB2ED5E-A001-4AD7-926A-4186F010D22F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25047BD5-89F0-4F07-B557-EB33BC13173E}
+	EndGlobalSection
+EndGlobal
