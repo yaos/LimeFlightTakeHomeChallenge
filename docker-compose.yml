@@ -6,6 +6,10 @@ services:
     environment:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=1Secure*Password1
+    ports:
+      - "1433:1433"
+    networks:
+      - lfnetwork
   limeflighttakehomechallenge:
     image: ${DOCKER_REGISTRY-}limeflighttakehomechallenge
     build:
@@ -13,3 +17,6 @@ services:
       dockerfile: LimeFlightTakeHomeChallenge/Dockerfile
     depends_on:
       - db
+networks:
+  lfnetwork:
+    driver: bridge
