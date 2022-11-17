@@ -21,7 +21,7 @@ It should look like this
 # Challenge
 
 ## Background
-The flights API endpoint is used all across LimeFlight and consumed by our single page application, MVC application and our mobile app and also used by internal Azure functions and external systems from our customers.
+The flights API endpoint is used all across LimeFlight and consumed by our single page application, MVC application and our mobile app and also used by internal Azure functions and external systems from our customers. In airline operations flights are regularly 
 It is central to the LimeFlight application to display flights to our users. 
 
 # Part one
@@ -30,6 +30,15 @@ Your job is to refactor the code to make sure it is more future proven and maint
 Feel free to introduce any new pattern, ideas, concepts that you think might fit.
 
 # Part two
+Flights are updated on a real time basis with new information like gate changes, aircraft changes, departure times changes etc which are normal on the day of operation in the airline industry. Our users wants to see the full history how a flight has been updated over time. 
+So we need to adapt the current flight endpoint in a way so that we can store the full history of flights and the users have full traceability. Keep in mind this is a breaking change for our current api consumers.
+
+
+
+
+
+
+
 
 
 
