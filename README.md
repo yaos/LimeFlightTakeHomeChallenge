@@ -1,5 +1,5 @@
 # LimeFlightTakeHomeChallenge
-This is the Take Home challenge for LimeFlight Backend engineer position. You have one week time to complete it. You need to create a PR to this repository.
+This is the Take Home challenge for LimeFlight Backend engineer position. You have one week time to complete it. You need to create a PR with this naming schema `challenge/{your-name}` to this repository.
 ## Prerequisites
 
 You need to have Docker Desktop installed in order to run Docker. 
