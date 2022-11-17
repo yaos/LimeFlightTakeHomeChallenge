@@ -30,8 +30,18 @@ Your job is to refactor the code to make sure it is more future proven and maint
 Feel free to introduce any new pattern, ideas, concepts that you think might fit.
 
 # Part two
-Flights are updated on a real time basis with new information like gate changes, aircraft changes, departure times changes etc which are normal on the day of operation in the airline industry. Our users wants to see the full history how a flight has been updated over time. 
-So we need to adapt the current flight endpoint in a way so that we can store the full history of flights and the users have full traceability. Keep in mind this is a breaking change for our current api consumers.
+Flights are updated on a real time basis with new information like gate changes, aircraft changes, departure times changes etc which are normal on the day of operation in the airline industry. Our users want to see the full history on how a flight has been updated over time. 
+So we need to adapt the current flight resource endpoint in a way, so that we can store the full history of flights and the users have full traceability. Keep in mind this is a breaking change for our current api consumers.
+
+Here is the UI prototype
+
+In our flight dashboard the user can click on the flight status of a flight(it shows the latest version of this flight based on the flight departure time:
+<img width="1028" alt="image" src="https://user-images.githubusercontent.com/2326083/202512924-0222a788-adbc-4996-9d6f-ed707b84a16b.png">
+In the modal all the different versions of a flight are displayed and it's changes are highlighted. 
+<img width="1029" alt="image" src="https://user-images.githubusercontent.com/2326083/202513417-8c688f49-244b-4ba4-8177-9ab1b6d54e23.png">
+
+
+
 
 
 
