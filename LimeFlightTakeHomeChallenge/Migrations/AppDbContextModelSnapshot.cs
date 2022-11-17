@@ -118,6 +118,9 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                     b.Property<DateTime?>("StaLtEff")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Std")
                         .HasColumnType("datetime2");
 
@@ -154,7 +157,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "LimeAir",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "ZRH",
                             DepEff = "ZRH",
                             DepGateEff = "D34",
@@ -164,23 +167,24 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             ExternalId = "201",
                             FkCreatedBy = "info@limeair.ch",
                             Flightnumber = 1075,
-                            LdtEff = new DateTime(2022, 11, 18, 11, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            LdtLtEff = new DateTime(2022, 11, 18, 12, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            LdtEff = new DateTime(2022, 11, 18, 13, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            LdtLtEff = new DateTime(2022, 11, 18, 14, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
                             LineOfWork = "LineOfWork1",
                             OperationalSuffix = "P",
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "ZRH-FRA-ZRH",
-                            Sta = new DateTime(2022, 11, 18, 11, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaEff = new DateTime(2022, 11, 18, 10, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 18, 12, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLtEff = new DateTime(2022, 11, 18, 11, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 10, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdEff = new DateTime(2022, 11, 18, 11, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 11, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLtEff = new DateTime(2022, 11, 18, 12, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            TotEff = new DateTime(2022, 11, 18, 10, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            TotLtEff = new DateTime(2022, 11, 18, 11, 30, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 18, 13, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaEff = new DateTime(2022, 11, 18, 12, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 18, 14, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLtEff = new DateTime(2022, 11, 18, 13, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 18, 12, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdEff = new DateTime(2022, 11, 18, 13, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 13, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLtEff = new DateTime(2022, 11, 18, 14, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            TotEff = new DateTime(2022, 11, 18, 12, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            TotLtEff = new DateTime(2022, 11, 18, 13, 57, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -188,7 +192,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcRegistration = "ZH-IJU",
                             AcType = "320",
                             Carrier = "limeair",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "FRA",
                             Dest = "ZRH",
                             ExternalId = "202",
@@ -197,10 +201,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "ZRH-FRA-ZRH",
-                            Sta = new DateTime(2022, 11, 18, 12, 0, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 18, 13, 0, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 10, 50, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 11, 50, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 18, 14, 27, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 18, 15, 27, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 18, 13, 17, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 14, 17, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -209,7 +214,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "ZRH",
                             Dest = "FRA",
                             ExternalId = "203",
@@ -218,10 +223,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "ZRH-FRA-ZRH",
-                            Sta = new DateTime(2022, 11, 18, 12, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 18, 14, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 11, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 13, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 18, 15, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 18, 17, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 18, 13, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 15, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -230,7 +236,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "JFK",
                             Dest = "CDG",
                             ExternalId = "206",
@@ -240,10 +246,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "JDK-CDG-YYZ-SFO-JFK",
-                            Sta = new DateTime(2022, 11, 18, 15, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 18, 14, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 4, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 3, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 18, 18, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 18, 17, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 18, 6, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 5, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -252,7 +259,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "777",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "MUC",
                             Dest = "FRA",
                             ExternalId = "247",
@@ -261,10 +268,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "MUC-FRA-MUC",
-                            Sta = new DateTime(2022, 11, 18, 11, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 18, 12, 30, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 10, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 11, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 18, 13, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 18, 14, 57, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 18, 12, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 13, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -273,7 +281,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "CDG",
                             Dest = "YYZ",
                             ExternalId = "444",
@@ -282,10 +290,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "JDK-CDG-YYZ-SFO-JFK",
-                            Sta = new DateTime(2022, 11, 19, 9, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 19, 8, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 18, 22, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 18, 21, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 19, 12, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 19, 11, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 19, 0, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 18, 23, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -294,7 +303,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "YYZ",
                             Dest = "SFO",
                             ExternalId = "555",
@@ -303,10 +312,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "JDK-CDG-YYZ-SFO-JFK",
-                            Sta = new DateTime(2022, 11, 20, 7, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 20, 6, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 19, 22, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 19, 21, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 20, 10, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 20, 9, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 20, 0, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 19, 23, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -315,7 +325,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "SFO",
                             Dest = "JFK",
                             ExternalId = "556",
@@ -324,10 +334,11 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "JDK-CDG-YYZ-SFO-JFK",
-                            Sta = new DateTime(2022, 11, 20, 15, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 20, 14, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 20, 9, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 20, 8, 20, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 20, 18, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 20, 17, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 20, 11, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 20, 10, 47, 12, 117, DateTimeKind.Local).AddTicks(916)
                         },
                         new
                         {
@@ -336,7 +347,7 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             AcType = "320",
                             Carrier = "limeair",
                             Codeshare = "",
-                            CreatedDate = new DateTime(2022, 11, 17, 16, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
+                            CreatedDate = new DateTime(2022, 11, 17, 18, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
                             Dep = "JFK",
                             Dest = "CDG",
                             ExternalId = "557",
@@ -345,11 +356,12 @@ namespace LimeFlightTakeHomeChallenge.Migrations
                             Owner = "limeair",
                             Remarks = "REFER TO limeair MEALPLAN",
                             RotationNumber = "JDK-CDG-YYZ-SFO-JFK",
-                            Sta = new DateTime(2022, 11, 21, 22, 50, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StaLt = new DateTime(2022, 11, 21, 21, 40, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            Std = new DateTime(2022, 11, 21, 10, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            StdLt = new DateTime(2022, 11, 21, 9, 20, 46, 343, DateTimeKind.Local).AddTicks(3676),
-                            TotEff = new DateTime(2022, 11, 29, 4, 22, 46, 343, DateTimeKind.Local).AddTicks(3676)
+                            Sta = new DateTime(2022, 11, 22, 1, 17, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StaLt = new DateTime(2022, 11, 22, 0, 7, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            Status = 0,
+                            Std = new DateTime(2022, 11, 21, 12, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            StdLt = new DateTime(2022, 11, 21, 11, 47, 12, 117, DateTimeKind.Local).AddTicks(916),
+                            TotEff = new DateTime(2022, 11, 29, 6, 49, 12, 117, DateTimeKind.Local).AddTicks(916)
                         });
                 });
 #pragma warning restore 612, 618

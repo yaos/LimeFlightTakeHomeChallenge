@@ -133,5 +133,17 @@ namespace LimeFlightTakeHomeChallenge.DAL.Models
         public string? FkUpdatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
+        /// <summary>
+        /// A nummeric value that stands for a status
+        /// </summary>
+        //Planned = 0,
+        //Delayed = 1,
+        //AcAssigned = 2,
+        //Diverted = 3,
+        //Updated = 4,
+        //Cancelled = 5,
+        //Reinitialized = 6,
+        //NewFlight = 7
+        public int Status { get; set; }
     }
 }

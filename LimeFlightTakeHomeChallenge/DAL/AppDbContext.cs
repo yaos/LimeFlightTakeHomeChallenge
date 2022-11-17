@@ -57,6 +57,7 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        StaLtEff = today.AddHours(19).AddMinutes(10),
                        StdEff = today.AddHours(19).AddMinutes(00),
                        StdLtEff = today.AddHours(20).AddMinutes(10),
+                       Status = 0,
                    },
                    new Flight
                    {
@@ -80,6 +81,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
                    },
                    new Flight
                    {
@@ -103,6 +106,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -128,6 +133,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -151,6 +158,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -174,6 +183,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -198,6 +209,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -221,6 +234,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Owner = "limeair",
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
+                       Status = 0,
+
 
                    },
                    new Flight
@@ -245,6 +260,8 @@ namespace LimeFlightTakeHomeChallenge.DAL
                        Remarks = "REFER TO limeair MEALPLAN",
                        Tow = null,
                        TotEff = today.AddDays(11).AddHours(12).AddMinutes(02),
+                       Status = 0,
+
 
                    }
                );
