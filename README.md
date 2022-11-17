@@ -21,7 +21,7 @@ It should look like this
 # Challenge
 
 ## Background
-The flights API endpoint is used all across LimeFlight and consumed by our single page application, MVC application and our mobile app and also used by internal Azure functions and external systems from our customers. In airline operations flights are regularly 
+The flights API endpoint is used all across LimeFlight and consumed by our single page application, MVC application and our mobile app and also used by internal Azure functions and external systems from our customers.
 It is central to the LimeFlight application to display flights to our users. 
 
 # Part one
