@@ -8,6 +8,7 @@ You need to have Docker Desktop installed in order to run Docker.
 
 In the root directory of the project you need to run 
 `docker compose up` and make sure that the db-1 is running (this is the MS Sql database)
+
 <img width="573" alt="image" src="https://user-images.githubusercontent.com/2326083/202495101-63d56397-2bba-49ac-8e8e-3a49ec6c2f19.png">
 
 In order to run the project make sure that the web project is selected as the start project.
@@ -16,6 +17,7 @@ It should run under this url:
 `https://localhost:7298/swagger/index.html`
 
 It should look like this
+
 <img width="1920" alt="image" src="https://user-images.githubusercontent.com/2326083/202498350-34868827-0dd4-4db1-a762-34d539236813.png">
 
 # Challenge
@@ -36,8 +38,11 @@ So we need to adapt the current flight resource endpoint in a way, so that we ca
 Here is the UI prototype
 
 In our flight dashboard the user can click on the flight status of a flight(it shows the latest version of this flight based on the flight departure time:
+
 <img width="1028" alt="image" src="https://user-images.githubusercontent.com/2326083/202512924-0222a788-adbc-4996-9d6f-ed707b84a16b.png">
+
 In the modal all the different versions of a flight are displayed and it's changes are highlighted. 
+
 <img width="1029" alt="image" src="https://user-images.githubusercontent.com/2326083/202513417-8c688f49-244b-4ba4-8177-9ab1b6d54e23.png">
 
 
