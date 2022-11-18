@@ -5,7 +5,8 @@ Expected submission date: 29th of November.
 
 You have one and a half weeks time to complete it. You need to create a new GitHub repository with your solution with this naming schema `LimeFlightTakeHomeChallenge-{your-name}` and send a link to it via mail to mdiggelmann@limeflight.com.
 
-**If you have questions**
+**If you have questions:**
+
 Just create an issue in this repository and you can also @mention me directly (@ginobili)
 ## Prerequisites
 
