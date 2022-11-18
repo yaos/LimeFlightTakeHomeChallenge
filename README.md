@@ -3,7 +3,7 @@ This is the Take Home challenge for LimeFlight Backend engineer position.
 ## Submission criterias
 Expected submission date: 29th of November.
 
-You have one and a half weeks time to complete it. You need to create a new GitHub repository with your solution with this naming schema `LimeFlightTakeHomeChallenge-{your-name}` and send it via mail to mdiggelmann@limeflight.com.
+You have one and a half weeks time to complete it. You need to create a new GitHub repository with your solution with this naming schema `LimeFlightTakeHomeChallenge-{your-name}` and send a link to it via mail to mdiggelmann@limeflight.com.
 ## Prerequisites
 
 You need to have Docker Desktop installed in order to run Docker. 
