@@ -32,7 +32,7 @@ It is central to the LimeFlight application to display flights to our users.
 # Part one
 As you can see based on the code it was created by a standard scaffolding template from Microsoft. This is not suitable for an enterprise application in terms of future extensability and maintainability.
 Your job is to refactor the code to make sure it is more future proven and maintainable and suitable for enterprise application with uptime SLA's of 99.9%. 
-Feel free to introduce any new pattern, ideas, concepts that you think might fit.
+Feel free to introduce any new pattern, ideas, concepts that you think might fit. Just make sure that you have a good explanation for your technical decisions.
 
 # Part two
 Flights are updated on a real time basis with new information like gate changes, aircraft changes, departure times changes etc which are normal on the day of operation in the airline industry. Our users want to see the full history on how a flight has been updated over time. 
