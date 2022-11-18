@@ -39,12 +39,12 @@ Here is the UI prototype
 
 In our flight dashboard the user can click on the flight status of a flight(it shows the latest version of this flight based on the flight departure time:
 
-<img width="1028" alt="image" src="https://user-images.githubusercontent.com/2326083/202512924-0222a788-adbc-4996-9d6f-ed707b84a16b.png">
+<img width="1028" alt="image" src="https://user-images.githubusercontent.com/1150181/202659649-6ac1b8f2-0f70-4ed5-83d3-0b552ffc254c.png">
 
 In the modal all the different versions of a flight are displayed and it's changes are highlighted. 
 
-<img width="1029" alt="image" src="https://user-images.githubusercontent.com/2326083/202513417-8c688f49-244b-4ba4-8177-9ab1b6d54e23.png">
-
+<img width="1029" alt="image" src="https://user-images.githubusercontent.com/1150181/202659895-7592ba49-087b-4344-8066-3be4c29f4e93.png">
+  
 
 
 
