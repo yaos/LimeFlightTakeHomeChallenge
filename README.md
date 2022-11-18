@@ -33,7 +33,7 @@ Feel free to introduce any new pattern, ideas, concepts that you think might fit
 
 # Part two
 Flights are updated on a real time basis with new information like gate changes, aircraft changes, departure times changes etc which are normal on the day of operation in the airline industry. Our users want to see the full history on how a flight has been updated over time. 
-So we need to adapt the current flight resource endpoint in a way, so that we can store the full history of flights and the users have full traceability. Keep in mind this is a breaking change for our current api consumers.
+So we need to adapt the current flight resource endpoint in a way, so that we can store the full history of flights and the users have full traceability and we can display the changes in the front end. Keep in mind this is a breaking change for our current api consumers.
 
 Here is the UI prototype
 
